@@ -1,0 +1,115 @@
+.nav-container{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 280px;
+    height: 100%;
+    z-index: 999;
+}
+
+body{
+    margin: auto;
+    max-width: 960px;    
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav header{
+    background-image: url("/img/Avengers-title-sm.png");
+    height: 110px;
+    color: transparent;
+}
+
+#spider-man{
+    background-image: url("/img/spiderman_logo.png");
+    background-repeat: no-repeat;
+    background-position-x: 100px;
+    height: 400px;
+    margin: auto;
+    color: transparent;
+}
+
+#iron-man{
+    background-image: url("/img/iron_man_logo.png");
+    background-repeat: no-repeat;
+    background-position-x: 100px;
+    height: 400px;
+    margin: auto;
+    color: transparent;
+}
+
+#doctor-strange{
+    background-image: url("/img/doctor-strange-logo.png");
+    background-repeat: no-repeat;
+    background-position-x: 100px;
+    height: 400px;
+    margin: auto;
+    color: transparent;
+}
+
+#black-panther{
+    background-image: url("/img/black-panther-logo.png");
+    background-repeat: no-repeat;
+    background-position-x: 100px;
+    height: 400px;
+    margin: auto;
+    color: transparent;
+}
+
+#thor{
+    background-image: url("/img/thor-logo.png");
+    background-repeat: no-repeat;
+    background-position-x: 100px;
+    height: 400px;
+    margin: auto;
+    color: transparent;
+}
+
+
+.spidey:hover{
+    /* background-image: url("/img/spider_man-eyes.png"); */
+    background-color: red;
+}
+.iron:hover{
+    /* background-image: url("/img/spider_man-eyes.png"); */
+    background-color: gold;
+}
+.panther:hover{
+    /* background-image: url("/img/spider_man-eyes.png"); */
+    background-color: purple;
+}
+.doc:hover{
+    /* background-image: url("/img/spider_man-eyes.png"); */
+    background-color: orangered;
+}
+.thor:hover{
+    /* background-image: url("/img/spider_man-eyes.png"); */
+    background-color: steelblue;
+}
+
+.main-section{
+    padding: 60px 0 0 0;
+}
+
+
+.sec-div:nth-child(even){
+    background-color: aqua;
+    border-radius: 70px 10px 70px 10px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px){
+    .nav-container{
+        position: relative;
+        top: 20px;
+        max-width: 100%;        
+        z-index: 999;
+    }
+}
+
+
+
+
+
